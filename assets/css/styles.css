@@ -1,8 +1,13 @@
-#container{}
+#container{
+  width: 1050px;
+  margin-left:25px;
+  border: 1px solid black;
+}
 
   .fa-arrow-right{
     color: #D5DBDB;
     /*GREY*/
+    font-weight: 100;
   }
 
 /*ATTEMPT BELOW IS NOT WORKING*/
@@ -18,9 +23,12 @@ font: verdana;
     color: #47a3da;*/
     /*BLUE*/
     h3{
+      width: 90%;
       color: #47a3da;
-      font-size: 28px;
+      font-size: 40px;
       font-family: 'Lato', sans-serif;
+      border-bottom: 1px solid #ddd;
+
     }
   }
   .AccordionItems{
@@ -28,29 +36,36 @@ font: verdana;
     /*border-bottom: 1px solid #ddd;*/
     padding: 0.2em 5em 1.5em 5em;
     /*margin: 20px;*/
-    border: 1px solid black
     color: #47a3da;
-    font-size: 28px;
+    /*font-size: 35px;*/
     font-family: 'Lato', sans-serif;
     display: none;
   }
   h3{
-    padding: 0.2em 3em 1.5em 3em;
+    padding: 1.5em 3em .5em 3em;
     margin: 0;
-    border: 1px solid black;}
+    font-size: 45px;
+    /*border: 1px solid black;*/
+  }
   .paragraph{
     color: #888;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
+    font-weight: 300;
     padding: 0.2em 5em 1.5em 5em;
     margin: 0;
-    border: 1px solid black
+    /*border: 1px solid black*/
 
   }
+  /*.SmallHeadings{
+
+
+  }*/
   .ParagraphSmallHeaders{
   color: #D5DBDB;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
    display: none
   }
   .fa-arrow-circle-o-right{
@@ -58,10 +73,12 @@ font: verdana;
   }
   .SmallHeadings{
     color: #47a3da;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 900;
     font-family: 'Lato', sans-serif;
     padding: 3em 5em 3em 7em;
     line-height: 3;
+    letter-spacing: .4em;
   }
 /*PERHAPS STYLE HORIZONTAL RULE HERE?*/
 /*hr{
