@@ -1,7 +1,12 @@
+body{
+  
+}
+
 #container{
   width: 1050px;
   margin-left:25px;
   border: 1px solid black;
+  padding: 60px;
 }
 
   .fa-arrow-right{
@@ -23,12 +28,14 @@ font: verdana;
     color: #47a3da;*/
     /*BLUE*/
     h3{
+      /*width: 700px;
+      /*border-bottom-width: : 300px;*/
       width: 90%;
       color: #47a3da;
       font-size: 40px;
       font-family: 'Lato', sans-serif;
       border-bottom: 1px solid #ddd;
-
+      padding: 1.5em 3em .5em 3em;
     }
   }
   .AccordionItems{
@@ -41,15 +48,13 @@ font: verdana;
     font-family: 'Lato', sans-serif;
     display: none;
   }
-  h3{
-    padding: 1.5em 3em .5em 3em;
-    margin: 0;
-    font-size: 45px;
+
     /*border: 1px solid black;*/
   }
-  .paragraph{
+  p{
     color: #888;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
     line-height: 1.5;
     font-weight: 300;
     padding: 0.2em 5em 1.5em 5em;
@@ -57,10 +62,10 @@ font: verdana;
     /*border: 1px solid black*/
 
   }
-  /*.SmallHeadings{
 
+  .accordion{
+  }
 
-  }*/
   .ParagraphSmallHeaders{
   color: #D5DBDB;
   font-size: 30px;
@@ -68,6 +73,15 @@ font: verdana;
   font-weight: 700;
    display: none
   }
+
+  .Show{
+   display: block;
+  }
+.Hide{
+   display: none;
+}
+
+
   .fa-arrow-circle-o-right{
     color: #D5DBDB;
   }
